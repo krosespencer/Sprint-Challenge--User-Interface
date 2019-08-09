@@ -38,11 +38,20 @@ Semantic tags are html elements (like the ones you've used already (a, header, s
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+A big difference is that ``` display:block;``` breaks the flow of an element and ```display: inline;``` does not, which allows elements to sit next to other elements. Also, ``` display:block;``` is styled w/height and width, while ```display: inline;``` has no height/width effects and only takes up as much space as its content. 
+
+
 3. What are the 4 areas of the box model?
+
+Content, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The main axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+It allows you to work on a live app/website without breaking it, allows multiple people to work on the same project at one time, allows you to roll back changes, allows you to save work easily while working in IDE, allows you to test code easily on one branch without interfering with what you are doing on another branch or on master.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
