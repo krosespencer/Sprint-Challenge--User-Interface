@@ -213,36 +213,39 @@ p {
 
 hr {
     margin: 0px, 0px, 30px, 0px;
+    border-top:1px dashed;
 }
 
-.boxsection{
+.container_aboutpage .boxsection{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     padding-top: 10px;
 }
-.box {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
+
+.about_box {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
     width: 45%;
     height: 20%;
     border-block-end: 1px dashed black;
-	padding: 20px;
-	margin: 10px;
+    margin: 10px 0px 10px 0px; 
+    padding: 10px 0px 10px 0px; 
 }
 
-.box h1 {
+.about_box h1 {
     padding: 5px;
-    margin: 5 px;
+    margin: 5px;
 }
 
-.box p {
+.about_box p {
     padding: 5px;
-    margin: 5 px;
+    margin: 5px;
 }
-.box button{
-    width: 35%;
+.about_box button{
+    width: 30%;
 	height: 30px;
 	border-radius:6px;
     color: black;
