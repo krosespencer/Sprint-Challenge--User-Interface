@@ -218,27 +218,31 @@ hr {
 .boxsection {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 10px;
 }
 .box {
-    width: 45%;
+    width: 40%;
     height: 20%;
     border-block-end: 1px dashed black;
-	background: whitesmoke;
 	padding: 20px;
 	margin: 10px;
 }
 .box button{
-    width: 25%;
-	height: 25px;
-	border-radius:5px;
-	color: black;
+    width: 35%;
+	height: 30px;
+	border-radius:6px;
+    color: black;
+    font-size: 12px;
 	background-color: white;
-	border: 1px solid black;
-	padding: 2px;
+	border: 2px solid black;
+	padding: 3px;
 	margin: 5px;
+}
+
+.box_img {
+    display: flex;
 }
 
 .bottom_aboutpage {
