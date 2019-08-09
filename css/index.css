@@ -220,12 +220,12 @@ hr {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .box {
     width: 45%;
     height: 20%;
-    border: 1px solid black;
+    border-block-end: 1px dashed black;
 	background: whitesmoke;
 	padding: 20px;
 	margin: 10px;
