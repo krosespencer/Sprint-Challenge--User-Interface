@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic tags are html elements (like the ones you've used already (a, header, section, etc.)) that are read by other developers looking at your code, search engines, or accessibility readers. They tell these various readers about what is on each page of the site, and provides a more standard meaning to an html document. These are typically easier to understand the content of code than classes or ids, which are not uniform. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
